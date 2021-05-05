@@ -23,6 +23,6 @@ This bot will notify you whenever vaccination slots get available in your area.
    
 **Now,** sit and relax... your robot will keep eye on the vaccination slots and let you know once it gets updated.
 
-![email_notification_scrrenshot](assets/notification_email.png)
+![email_notification_scrrenshot](assets/notification_email_border_black.png)
 
 > Please refer [LICENSE](LICENSE) before using this project.
