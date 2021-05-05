@@ -9,12 +9,14 @@ This bot will notify you whenever vaccination slots get available in your area.
 1. Clone this repo on your local machine
 2. It's recommended to create a virtual environment for this project
 3. Install required packages by executing below command in terminal:
+
     ```bash
    python -m pip install -r requirements.txt 
    ```
 4. Create a copy of `.env.example` file and rename it to `.env`
 5. Update `.env` as per your requirements
 6. Run `vaccine-availability-checker.py` python script by executing below command in terminal:
+
     ```bash
    python vaccine-availability-checker.py 
    ```
