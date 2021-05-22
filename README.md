@@ -21,7 +21,7 @@ Stay alert for vaccination slots in your area.
    python vaccine-availability-checker.py 
    ```
    
-**Now,** sit and relax... your robot will keep eye on the vaccination slots and let you know once it gets updated.
+**Now,** sit back and relax... your robot will keep eye on the vaccination slot and let you know when it gets available.
 
 ![email_notification_scrrenshot](assets/notification_email_border_black.png)
 
