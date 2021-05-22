@@ -1,5 +1,5 @@
 # CoWin Vaccine Availability Indicator Bot
-This bot will notify you whenever vaccination slots get available in your area.
+Stay alert for vaccination slots in your area.
 
 ## Pre-requisites
 1. Python v3.8+
