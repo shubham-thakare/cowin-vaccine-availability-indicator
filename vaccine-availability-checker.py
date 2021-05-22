@@ -46,7 +46,8 @@ def run_daemon():
                 url=f'{COWIN_OPEN_API}/findByPin?pincode={PINCODE}&date={NEXT_DAY_DATE_FORMATTED}',
                 headers={
                     'accept': 'application/json',
-                    'Accept-Language': 'hi_IN'
+                    'Accept-Language': 'hi_IN',
+                    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
                 }
             ).json()
 
@@ -64,11 +65,11 @@ def run_daemon():
                     RECEIVER_EMAIL,
                     'Vaccination Slot Available!',
                     f'Hi,\n\n'
-                    f'Vaccination slot available on {NEXT_DAY_DATE_FORMATTED} for pincode {PINCODE}, '
+                    f'Vaccination slot is available on {NEXT_DAY_DATE_FORMATTED} for pincode {PINCODE}, '
                     f'hurry up and book the slot before its gone...\n\n'
                     f'Visit: https://selfregistration.cowin.gov.in/\n\n'
                     f'Yours,\n'
-                    f'Vaccine Availability Checker Bot'
+                    f'Vaccine Availability Indicator Bot'
                 )
 
             # Wait for three minutes to execute next request
